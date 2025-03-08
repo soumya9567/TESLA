@@ -1,5 +1,4 @@
 import React from "react";
-import tesla from "../../assets/tesla.png";
 
 function Navbar() {
   return (
@@ -16,19 +15,7 @@ function Navbar() {
         </button>
       </div>
 
-      <div className="flex  justify-center items-center">
-        <div>
-          <img width={100} src={tesla} alt="" />
-        </div>
-        <div>
-            <span>Vehicles</span>
-            <span>Energy</span>
-            <span>Charging</span>
-            <span>Discover</span>
-            <span>Shop</span>
-        </div>
-     
-      </div>
+      
     </div>
   );
 }
